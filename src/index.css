@@ -6,7 +6,7 @@ body {
   margin: 30px 30px;
 }
 footer {
-  border-top: 2px solid #eca0b6;
+  border-top: 2px solid #a1e6e3;
   padding: 15px 0 0;
   text-align: center;
 }
@@ -22,26 +22,46 @@ a {
 }
 .search-form {
   text-align: center;
+  padding: 10px;
 }
 .search-city {
   width: 75%;
   height: 30px;
   border-radius: 8px;
   border: #eeacbf;
-  background-color: #d7fffd;
+  background-color: #a1e6e3;
 }
 .submit-city {
   width: 10%;
+  height: 30px;
+  border-radius: 8px;
+  background-color: #a1e6e3;
+  border: none;
 }
+.submit-city:hover {
+  background-color: #d7fffd;
+  box-shadow: 0 30px 30px rgba(65, 50, 100, 0.08);
+}
+
 .icon-and-value {
   display: flex;
   font-size: 45px;
+  justify-content: space-around;
+  margin: 0;
+  text-align: center;
 }
 .weather-body {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  margin: 0;
+  padding: 15px 15px;
 }
 
 .wind-and-humidty strong {
   color: #eca0b6;
+}
+.text-main {
+  text-align: left;
+  padding: 0;
+  margin: 0;
 }
