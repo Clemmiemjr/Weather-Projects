@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(0deg, #fbebf0 0%, #f3c3d1 50%, #eeacbf 100%);
+  background: linear-gradient(180deg, #fbebf0 0%, #f3c3d1 50%, #eeacbf 100%);
   font-family: "Nunito", sans-serif;
   padding: 30px 30px;
 }
@@ -44,10 +44,17 @@ a {
 
 .icon-and-value {
   display: flex;
-  font-size: 45px;
+  font-size: 50px;
   justify-content: space-around;
   margin: 0;
   text-align: center;
+}
+.icon {
+  padding: 10px;
+}
+.current-temperature {
+  text-align: center;
+  padding: 10px;
 }
 .weather-body {
   display: flex;
