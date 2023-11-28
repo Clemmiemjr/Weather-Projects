@@ -1,11 +1,17 @@
 body {
-  background: #eca0b6;
+  background: linear-gradient(0deg, #fbebf0 0%, #f3c3d1 50%, #eeacbf 100%);
   font-family: "Nunito", sans-serif;
+  height: 100%;
+  padding: auto;
+  margin: 30px 30px;
 }
 footer {
-  border-top: 2px solid #000000;
+  border-top: 2px solid #eca0b6;
   padding: 15px 0 0;
   text-align: center;
+}
+a {
+  color: #eca0b6;
 }
 .body-app {
   background: white;
@@ -14,11 +20,28 @@ footer {
   border-radius: 10pt;
   box-shadow: 0 30px 30px rgba(65, 50, 100, 0.08);
 }
+.search-form {
+  text-align: center;
+}
+.search-city {
+  width: 75%;
+  height: 30px;
+  border-radius: 8px;
+  border: #eeacbf;
+  background-color: #d7fffd;
+}
+.submit-city {
+  width: 10%;
+}
+.icon-and-value {
+  display: flex;
+  font-size: 45px;
+}
 .weather-body {
   display: flex;
   justify-content: space-between;
 }
 
 .wind-and-humidty strong {
-  color: blue;
+  color: #eca0b6;
 }
