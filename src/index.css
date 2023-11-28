@@ -2,10 +2,23 @@ body {
   background: #eca0b6;
   font-family: "Nunito", sans-serif;
 }
+footer {
+  border-top: 2px solid #000000;
+  padding: 15px 0 0;
+  text-align: center;
+}
 .body-app {
   background: white;
   margin: 20px auto;
   padding: 20px 20px;
   border-radius: 10pt;
   box-shadow: 0 30px 30px rgba(65, 50, 100, 0.08);
+}
+.weather-body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wind-and-humidty strong {
+  color: blue;
 }

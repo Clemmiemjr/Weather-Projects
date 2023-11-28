@@ -15,16 +15,27 @@
   <body>
     <div class="body-app">
       <header>
-        <form>
-          <input type="search" placeholder="Please choose a city" required />
-          <input type="submit" value="search" />
+        <form class="search-form">
+          <input
+            class="search-city"
+            type="search"
+            placeholder="Please choose a city"
+            required
+          />
+          <input class="submit-city" type="submit" value="search" />
         </form>
       </header>
       <main>
-        <h1>City Name</h1>
-        <p>12c</p>
-        <p>Day, time and the conditions</p>
-        <p>Humidty and wind</p>
+        <div class="weather-body">
+          <div><p>12c</p></div>
+          <div>
+            <h1>City Name</h1>
+            <p>Day, time and the conditions</p>
+            <p class="wind-and-humidty">
+              Humidty <strong>2</strong> wind <strong>2</strong>
+            </p>
+          </div>
+        </div>
       </main>
       <footer>
         Coded by
