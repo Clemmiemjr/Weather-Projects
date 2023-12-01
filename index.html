@@ -15,9 +15,10 @@
   <body>
     <div class="body-app">
       <header>
-        <form class="search-form">
+        <form class="search-form" id="search-field">
           <input
             class="search-city"
+            id="city-search"
             type="search"
             placeholder="Please choose a city"
             required
@@ -32,7 +33,7 @@
             <p class="current-temperature">12c</p>
           </div>
           <div class="text-main">
-            <h1>City Name</h1>
+            <h1 id="city-name">City Name</h1>
             <p>Day, time and the conditions</p>
             <p class="wind-and-humidty">
               Humidty <strong>2</strong> wind <strong>2</strong>
@@ -55,5 +56,6 @@
         >
       </footer>
     </div>
+    <script src="src/weather.js"></script>
   </body>
 </html>
