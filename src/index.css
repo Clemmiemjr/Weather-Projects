@@ -13,15 +13,15 @@ a {
 }
 .body-app {
   background: white;
-  margin: 20px auto;
-  padding: 20px 20px;
+  margin: 5% auto;
+  padding: 2% 2%;
   height: 100%;
   border-radius: 10pt;
   box-shadow: 0 30px 30px rgba(65, 50, 100, 0.08);
 }
 .search-form {
   text-align: center;
-  padding: 10px;
+  padding: 5%;
 }
 .search-city {
   width: 75%;
@@ -52,19 +52,19 @@ a {
 .icon {
   padding: 10px;
   width: 150px;
-  line-height: 150px;
+  line-height: 10vw;
 }
 .current-temperature {
   text-align: center;
   padding: 10px;
-  line-height: 150px;
+  line-height: 10vw;
 }
 .weather-body {
   display: flex;
   justify-content: space-around;
   margin: 0;
-  padding: 15px 15px;
-  line-height: 80px;
+  padding: 3%;
+  line-height: 5vw;
 }
 
 .wind-and-humidty strong {
