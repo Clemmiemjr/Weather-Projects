@@ -75,3 +75,13 @@ a {
   padding: 0;
   margin: 0;
 }
+.weather-forecast {
+  margin-bottom: 2%;
+  text-align: center;
+}
+.weather-forecast-temperature-min {
+  color: #33bfb8;
+}
+.weather-forecast-temperature-max {
+  color: #eca0b6;
+}
