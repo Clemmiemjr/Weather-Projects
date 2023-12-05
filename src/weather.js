@@ -61,8 +61,7 @@ function displayForecast() {
     forecastHTML =
       forecastHTML +
       `
-  <div class="row-5">
-    <div class="col-2">
+    <div>
       <div class="weather-forecast-date">${day}</div>
       <div class="weather-forecast-icon">🌥</div>
       <div class="weather-forecast-temperature">
@@ -80,3 +79,4 @@ let searchFieldElement = document.querySelector("#search-field");
 searchFieldElement.addEventListener("submit", handleSearchSumbit);
 
 displayForecast();
+searchCity("London");
