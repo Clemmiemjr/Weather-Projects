@@ -1,8 +1,6 @@
 body {
   background: linear-gradient(180deg, #fbebf0 0%, #f3c3d1 50%, #eeacbf 100%);
   font-family: "Nunito", sans-serif;
-  padding-top: 2%;
-  padding-bottom: 5%;
   padding-left: 2%;
   padding-right: 2%;
 }
