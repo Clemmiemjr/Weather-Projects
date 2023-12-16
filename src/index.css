@@ -7,9 +7,10 @@ footer {
   border-top: 2px solid #a1e6e3;
   padding: 15px 0 0;
   text-align: center;
+  color: #eeacbf;
 }
-a {
-  color: #eca0b6;
+.footer {
+  color: #eeacbf;
 }
 .body-app {
   background: white;
@@ -44,20 +45,20 @@ a {
 
 .icon-and-value {
   display: flex;
+  align-items: center;
   font-size: 50px;
   justify-content: space-around;
   margin: 0;
   text-align: center;
 }
 .icon {
-  padding: 10px;
-  width: 150px;
-  line-height: 10vw;
+  width: 180px;
+  line-height: 15vw;
+  padding-left: 15px;
 }
 .current-temperature {
   text-align: center;
-  padding: 10px;
-  line-height: 10vw;
+  padding-left: 15px;
 }
 .weather-body {
   display: flex;
@@ -78,10 +79,17 @@ a {
 .weather-forecast {
   margin-bottom: 2%;
   text-align: center;
+  padding: 5%;
 }
 .weather-forecast-temperature-min {
   color: #33bfb8;
+  font-weight: 400;
 }
 .weather-forecast-temperature-max {
   color: #eca0b6;
+  font-weight: 400;
+}
+.weather-forecast-date {
+  color: #e26c8e;
+  font-weight: 625;
 }

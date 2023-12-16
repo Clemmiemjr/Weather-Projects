@@ -82,8 +82,8 @@ function displayForecast(response) {
       <div class="weather-forecast-temperature">
         <span class="weather-forecast-temperature-min">${Math.round(
           day.temperature.minimum
-        )}</span>
-        <span class="weather-forecast-temperature-max">${Math.round(
+        )}  </span>
+        <span class="weather-forecast-temperature-max">   ${Math.round(
           day.temperature.maximum
         )}</span>
       </div>
@@ -100,4 +100,3 @@ let searchFieldElement = document.querySelector("#search-field");
 searchFieldElement.addEventListener("submit", handleSearchSumbit);
 
 searchCity("London");
-// displayForecast();
